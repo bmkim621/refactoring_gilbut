@@ -1,4 +1,4 @@
-package refactoring_gilbut.chap01.after3;
+package refactoring_gilbut.chap01.after;
 
 public class RobotSymbolicConstant {
 	public static final int COMMAND_JUMP = 2;
