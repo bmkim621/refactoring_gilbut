@@ -1,16 +1,16 @@
-package refactoring_gilbut.chap01.after;
+package refactoring_gilbut.chap01.after3;
 
 public class RobotSymbolicConstant {
 	public static final int COMMAND_JUMP = 2;
 	public static final int COMMAND_STOP = 1;
 	public static final int COMMAND_WALK = 0;
-	private final String name;	//∑Œ∫ø ¿Ã∏ß
+	private final String name;	//Î°úÎ¥á Ïù¥Î¶Ñ
 
 	public RobotSymbolicConstant(String name) {
 		this.name = name;
 	}
 	
-	//∏ﬁº≠µÂ
+	//Î©îÏÑúÎìú
 	public void order(int command) {
 		if(command == COMMAND_WALK) {
 			System.out.println(name + " walks.");

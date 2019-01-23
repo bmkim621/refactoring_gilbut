@@ -1,13 +1,13 @@
 package refactoring_gilbut.chap01.before;
 
 public class RobotMagicNumber {
-	private final String name;	//·Îº¿ ÀÌ¸§
+	private final String name;	//ë¡œë´‡ ì´ë¦„
 
 	public RobotMagicNumber(String name) {
 		this.name = name;
 	}
 	
-	//¸Ş¼­µå
+	//ë©”ì„œë“œ
 	public void order(int command) {
 		before(command);
 	}

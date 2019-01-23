@@ -1,7 +1,7 @@
 package refactoring_gilbut.chap01.after2;
 
 public class RobotCommandClass {
-	private final String name;	//∑Œ∫ø ¿Ã∏ß
+	private final String name;	//Î°úÎ¥á Ïù¥Î¶Ñ
 	
 	public static final RobotCommand COMMAND_JUMP = new RobotCommand("JUMP");
 	public static final RobotCommand COMMAND_STOP = new RobotCommand("STOP");
@@ -11,7 +11,7 @@ public class RobotCommandClass {
 		this.name = name;
 	}
 	
-	//∏ﬁº≠µÂ
+	//Î©îÏÑúÎìú
 	public void order(RobotCommand command) {
 		if(command == COMMAND_WALK) {
 			System.out.println(name + " walks.");

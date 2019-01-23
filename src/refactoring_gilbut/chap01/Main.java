@@ -1,7 +1,7 @@
 package refactoring_gilbut.chap01;
 
-import refactoring_gilbut.chap01.after.RobotSymbolicConstant;
 import refactoring_gilbut.chap01.after2.RobotCommandClass;
+import refactoring_gilbut.chap01.after3.RobotSymbolicConstant;
 import refactoring_gilbut.chap01.before.RobotMagicNumber;
 
 public class Main {
